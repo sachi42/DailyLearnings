@@ -10,6 +10,7 @@ class Solution {
         if (index == -1) {
             return "";
         }
+        // substring returns from(inclusive) to last index(exclusive)
         return s.substring(0, index+1);
     }
 }
